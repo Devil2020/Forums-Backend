@@ -60,7 +60,7 @@
                   "error": "password doesn't match",
                   "empty": "please enter an password"
                  }
-    },
+    }
   ]
 }
 
