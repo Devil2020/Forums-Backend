@@ -15,7 +15,7 @@
         "backgroundColor": "#e4dbd9",
         "cornerRadius": 5
       },
-      "validation": "",
+      "validation": "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}",
       "message": {
         "error": "please enter a valid email address",
         "empty": "please enter your email address"
@@ -35,7 +35,7 @@
         "backgroundColor": "#e4dbd9",
         "cornerRadius": 5
       },
-      "validation": "",
+      "validation": "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$",
       "message": {
         "error": "please enter a password with Minimum 8 characters at least 1 Alphabet and 1 Number",
         "empty": "please enter an password"
@@ -55,7 +55,7 @@
         "backgroundColor": "#e4dbd9",
         "cornerRadius": 5
       },
-      "validation": "",
+      "validation": "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$",
       "message": {
         "error": "password doesn't match",
         "empty": "please enter an password"
