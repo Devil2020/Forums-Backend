@@ -38,7 +38,7 @@
       "validation": "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$",
       "message": {
         "error": "please enter a password with Minimum 8 characters at least 1 Alphabet and 1 Number",
-        "empty": "please enter an password"
+        "empty": "please enter a password"
       }
     },
     {
@@ -58,7 +58,7 @@
       "validation": "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$",
       "message": {
         "error": "password doesn't match",
-        "empty": "please enter an password"
+        "empty": "please enter a password"
       }
     }
   ]
