@@ -52,6 +52,6 @@ struct TextField {
 ```swift
 struct Response {
   let count: Int
-  flet ields: [TextField]
+  let fields: [TextField]
 }
 ```
