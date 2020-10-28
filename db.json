@@ -2,46 +2,6 @@
   "count": 3,
   "fields": [
     {
-      "id": 1,
-      "matchingId": null,
-      "placeholder": "Email",
-      "type": 1,
-      "isSecured": false,
-      "style": {
-                "textColor": "#111b1e",
-                "accentColor": "#6e93d6",
-                "placeholderColor": "#63a583",
-                "borderColor": "#6e93d6",
-                "backgroundColor": "#e4dbd9",
-                "cornerRadius": 5.0
-                },
-      "validation": "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}",
-      "message": {
-                  "error": "please enter a valid email address",
-                  "empty": "please enter your email address"
-                 }
-    },
-    {
-      "id": 2,
-      "matchingId": null,
-      "placeholder": "Password",
-      "type": 0,
-      "isSecured": true,
-      "style": {
-                "textColor": "#111b1e",
-                "accentColor": "#6e93d6",
-                "placeholderColor": "#63a583",
-                "borderColor": "#6e93d6",
-                "backgroundColor": "#e4dbd9",
-                "cornerRadius": 5.0
-              },
-      "validation": "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$",
-      "message": {
-                  "error": "please enter a password with Minimum 8 characters at least 1 Alphabet and 1 Number",
-                  "empty": "please enter an password"
-                 }
-    },
-    {
       "id": 3,
       "matchingId": 2,
       "placeholder": "Confirm Password",
